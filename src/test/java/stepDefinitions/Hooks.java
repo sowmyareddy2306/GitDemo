@@ -27,7 +27,7 @@ TestContextSetup testContextSetup;
 	{
 		
 		testContextSetup.testBase.WebDriverManager().quit();
-		
+		System.err.println("driver closed");
 	}
 	
 	@AfterStep
